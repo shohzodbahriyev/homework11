@@ -9,12 +9,6 @@
     margin: 0 auto;
 }
 
-/* body{
-    font-size: 32px;
-    color: green;
-    font-weight: 400;
-    font-family: 'Oswald', sans-serif;
-} */
 
 /* ------------- HEADER ------------ */
 
@@ -46,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .leftheader *{
