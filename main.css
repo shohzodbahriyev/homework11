@@ -381,3 +381,56 @@ main a{
     justify-content: center;
 }
 
+
+/* Responsive for phone */
+
+@media screen and (max-width: 1000px){
+    .container{
+        max-width: 900px;
+    }    
+    .nav .nav_list .nav_item + .nav_item{
+        display: none;
+    }
+    .nav{
+        background-color: transparent;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+@media screen and (max-width: 750px){
+    .container{
+        max-width: 700px;
+    }
+    .leftheader p{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px){
+    .container{
+        max-width: 90%;
+    }
+    .rightheader{
+        display: none;
+    }
+    .purchase{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .leftheader{
+        width: 100%;
+    }
+    .leftheader a{
+        display: flex;
+        right: 0;
+    }
+}
